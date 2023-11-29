@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css"
+      integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+      integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="/images/nike-logo.png" alt="" />
+        </div>
+        <ul class="nav-links">
+          <button id="darkModeToggle"><i class="fas fa-moon"></i></button>
+
+          <li><a href="#">Home</a></li>
+          <li><a href="#best">Products</a></li>
+          <li><a href="#about-sec">About</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#accordion">Info</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-text">
+          <h1>COMFORT AND MAGIC AWAITS EVERYDAY</h1>
+          <button>Shop Now</button>
+        </div>
+        <div class="hero-image">
+          <img src="images/nike-air-max-blue.png" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="best" class="best-sellers">
+        <h2>BEST SELLERS</h2>
+        <article class="best-sellers-container"></article>
+      </section>
+
+      <section id="about-sec" class="about">
+        <div class="content">
+          <h2>The best shoes For the best people</h2>
+          <p>
+            At our store, we believe that great footwear can make all the
+            difference. That's why we've meticulously curated a collection that
+            combines style, comfort, and quality. Each pair in our range is more
+            than just a fashion statement; it's a testament to superb
+            craftsmanship and enduring design. From the sleek lines of our dress
+            shoes to the rugged charm of our boots, every item is chosen to
+            enhance your journey, no matter where it takes you. Experience the
+            perfect blend of fashion and function with our collection, where
+            every step is a step in the right direction.
+          </p>
+          <button>Explore Now</button>
+        </div>
+        <div class="about-image">
+          <img src="images/nikegroup.png" alt="Jordan Model 1" />
+        </div>
+      </section>
+
+      <section id="featured" class="carousel-section">
+        <h2>Featured Items</h2>
+        <div id="shoe-carousel" class="carousel">
+          <div class="carousel-item">
+            <img src="images/kd16.png" alt="Jordan Model 1" />
+            <h2>Nike KD 16</h2>
+            <p>$140</p>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/lebron20.png" alt="Jordan Model 2" />
+            <h2>Nike Lerbon 20</h2>
+            <p>$140</p>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/curry10.png" alt="Jordan Model 2" />
+            <h2>Under Armour Curry 10</h2>
+            <p>$120</p>
+          </div>
+        </div>
+      </section>
+
+      <div id="accordion">
+        <h3>Choosing the Right Size and Fit</h3>
+        <div>
+          <p>
+            Finding the perfect fit is crucial for comfort and performance.
+            Start by measuring your foot size at home using a standard ruler or
+            a printable sizing guide available on Nike's website. Compare your
+            measurements with Nike's sizing chart, which includes US, UK, and EU
+            sizes for men, women, and children. Remember to consider the width
+            of your foot as some Nike models are available in different widths.
+            Additionally, read customer reviews for insights on how specific
+            models fit, and consider any special needs like arch support or
+            extra cushioning for your activities.
+          </p>
+        </div>
+        <h3>Navigating Nike's Shoe Collections</h3>
+        <div>
+          <p>
+            Nike offers an extensive range of shoes to cater to various needs
+            and styles. Explore collections like Air Max for classic style and
+            cushioning, Nike Free for a flexible, barefoot-like feel, or Zoom
+            for responsive performance. For athletes, specific collections like
+            Nike Pro are designed for basketball, running, soccer, and more,
+            offering specialized support and technology. Stay updated on
+            seasonal releases and limited editions by subscribing to Nike's
+            newsletter or following them on social media. For everyday wear,
+            check out Nike's lifestyle range, featuring trendy designs and
+            comfortable fits.
+          </p>
+        </div>
+        <h3>Customizing Your Nike Shoes</h3>
+        <div>
+          <p>
+            Make your shoes uniquely yours with Nike By You. Start by selecting
+            a base model from popular shoes like Air Force 1, Air Max, or Roshe.
+            Then, unleash your creativity by customizing colors, materials, and
+            even adding personalized text. Choose from a palette of colors for
+            each part of the shoe, including the upper, sole, and laces. Select
+            materials like classic leather, breathable mesh, or sustainable
+            options. Preview your design in real-time and make adjustments until
+            you're satisfied. Custom orders take longer to deliver, so plan
+            accordingly for special occasions.
+          </p>
+        </div>
+        <h3>Understanding Nike's Return and Exchange Policy</h3>
+        <div>
+          <p>
+            Nike aims for complete customer satisfaction, offering a generous
+            return and exchange policy. You can return or exchange your Nike
+            shoes within 30 days of the purchase date, even if they've been
+            worn. Ensure the shoes are clean and include all original packaging
+            and accessories. Start the return process online by logging into
+            your Nike account and following the return instructions. For
+            exchanges, it's often faster to return your item and place a new
+            order. If you purchased shoes in a Nike store, you need to return
+            them in-store. Nike members enjoy extended return benefits,
+            including free shipping for returns.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <nav class="nav-footer">
+        <div class="logo">
+          <img src="/images/nike-logo-w.png" alt="" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#best">Products</a></li>
+          <li><a href="#about-sec">About</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#accordion">Info</a></li>
+        </ul>
+      </nav>
+      <div class="footer-btm"></div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+  </body>
+</html>

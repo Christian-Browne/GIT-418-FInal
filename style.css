@@ -1,0 +1,311 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: white; /* color for light mode */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 30px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+#darkModeToggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #eeeeee;
+  border: 2px solid #333;
+}
+
+.dark-mode #darkModeToggle {
+  background-color: #292929;
+  border: 2px solid #e0e0e0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  max-width: 1000px;
+}
+
+.hero-image img {
+  width: 620px;
+  transform: rotate(-20deg);
+}
+
+.hero button {
+  background: none;
+  border: 3px solid rgb(59, 59, 178);
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+
+.best-sellers {
+  padding: 80px 30px;
+}
+
+.best-sellers-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.best-sellers h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.shoe-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 450px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.shoe-card img {
+  margin-top: 10px;
+  width: 200px;
+}
+
+.shoe-card-text {
+  margin-top: 20px;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.shoe-card-price {
+  text-decoration: 3px rgb(27, 203, 100) underline;
+}
+
+.about {
+  display: flex;
+  gap: 200px;
+  background-color: #edffed;
+  padding: 80px 30px;
+  max-width: 100%;
+}
+
+.about .content {
+  max-width: 800px;
+}
+
+.about h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.about-image img {
+  width: 550px;
+}
+
+.about button {
+  background: none;
+  border: 2px solid rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.carousel-section {
+  background-color: #fff;
+  padding: 80px 30px;
+}
+
+.carousel-section h2 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#shoe-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item p {
+  margin-top: -50px;
+  display: inline-block;
+  font-size: 26px;
+  background-color: rgb(246, 224, 255);
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.slick-arrow {
+  padding: 20px;
+}
+
+.slick-next {
+  margin-right: 200px;
+}
+
+.slick-prev {
+  margin-left: 200px;
+}
+
+.carousel img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#shoe-carousel button {
+  background-color: #ffffff;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#accordion {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#accordion h3 {
+  font-size: 24px;
+  font-weight: 600;
+  background-color: rgb(255, 239, 238);
+  color: black;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+/* Accordion content */
+#accordion div {
+  background: #ffffff;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Paragraph inside accordion */
+#accordion p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.nav-footer {
+  margin-top: 100px;
+  background-color: #1e1e1e;
+}
+
+.nav-footer a {
+  color: #fff;
+}
+
+.footer-btm {
+  background-color: rgb(52, 52, 52);
+  height: 60px;
+  width: 100%;
+}
+
+/* Dark Mode Style */
+.dark-mode {
+  background-color: #1e1e1e; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+.dark-mode nav {
+  background-color: #333; /* Darker nav bar */
+}
+
+.dark-mode .nav-links a {
+  color: #ffffff;
+}
+
+.dark-mode .shoe-card {
+  background-color: #2a2a2a; /* Dark cards */
+  color: #ffffff;
+}
+
+.dark-mode .hero button {
+  color: #ffffff;
+}
+
+.dark-mode .about {
+  background-color: #5e7d5e;
+}
+
+.dark-mode button {
+  color: #ffffff;
+  border: #ffffff 2px solid;
+}
+
+.dark-mode .carousel-section {
+  background-color: #333;
+}
+
+.dark-mode .carousel-item p {
+  color: #000000;
+}
+
+.dark-mode .slick-arrow {
+  color: #333;
+  background-color: red;
+}
+
+.dark-mode #accordion h3 {
+  background-color: #8e5f5f;
+  color: #ffffff;
+}
+
+.dark-mode #accordion div {
+  background-color: #4b4b4b;
+  color: #ffffff;
+  border: none;
+}
+
+.dark-mode .footer-btm {
+  background-color: #4b4b4b;
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Nike X Air Jordan 1 Retro High",
+    "type": "Jordan",
+    "imageUrl": "images/jordan1.png",
+    "price": 1300
+  },
+  {
+    "name": "Air Jordan 4 Retro 'University Blue'",
+    "type": "Jordan",
+    "imageUrl": "images/jordan4.png",
+    "price": 1000
+  },
+  {
+    "name": "Air Jordan 2 Retro 'Chicago Home'",
+    "type": "Jordan",
+    "imageUrl": "images/jordan2.png",
+    "price": 1250
+  },
+  {
+    "name": "Nike Air Force 1 Low",
+    "type": "Nike",
+    "imageUrl": "images/air-force-1-black.png",
+    "price": 190
+  },
+  {
+    "name": "Puma MB.01",
+    "type": "Puma",
+    "imageUrl": "images/lameloball.png",
+    "price": 180
+  }
+]
